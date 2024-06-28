@@ -10,10 +10,10 @@ int is_prime(int num) {
 
 int main() {
     int n;
-    printf("Nhap so luong phan tu: ");
+    printf("Nhap so phan tu: ");
     scanf("%d", &n);
     int arr[n];
-    printf("Nhap vao % so nguyen : ", n);
+    printf("Nhap vao so nguyen %d: ", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
